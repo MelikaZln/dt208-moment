@@ -1,0 +1,171 @@
+
+.container {
+    background-color:rgb(202, 229, 253);
+    width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 5px 10px 18px #888888;
+}
+h2{
+    text-align: center;
+    color: rgb(3, 54, 54);
+    font-size: 36px;
+}
+.input{
+    font-style: italic;
+    font-weight: 100;
+    font-size: 14px;
+    padding: 7px;
+}
+input{
+    width: 200px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+
+  
+tr:nth-child(odd) {
+    background-color: #f2f2f2; 
+  }
+thead {
+    list-style-type: none;
+    padding: 0;
+    color: rgb(3, 54, 54);
+    font-size: 22px;
+}
+
+td {
+
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 1em;
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+    color:rgb(3, 54, 54);
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+    height: 45px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+button:last-child {
+    margin-right: 0;
+  }
+.filter{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(10, 10, 96);
+    
+}
+input{
+    border-radius: 10px;
+    border: 3px solid aliceblue;
+    font-size: 1em;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#kurslist{
+    line-height: 2em;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 481px) {
+
+    .container {
+        width: 300px;
+        margin: 80px auto;
+        padding: 10px;
+        margin: 5px auto;
+    }
+    h2{
+
+        font-size: 20px;
+    }
+    
+    #todoForm{
+        text-align: center;
+    }
+    #filter{
+        font-size: 16px;
+
+    }
+    input{
+        font-size: 0.9em;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    button{
+        border-radius: 10px;
+        margin-left: 5px;
+        width: 80px;
+        font-size: 10px;
+        display: inline-block;
+        text-align: center;
+        margin-right: 10px;
+        padding: 2px 8px;
+    }
+    #kurslist{
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    thead {
+
+        font-size: 12px;
+    }
+    .filter{
+
+        margin-bottom: 30px;
+        font-size: 20px;
+
+        
+    }
+    #kurslist{
+        font-size: 14px;
+    }
+
+  }
+  @media screen and (min-width: 481px) and (max-width: 780px) {
+    .container {
+        width: 450px;
+        margin: 80px auto;
+        padding: 10px;
+    }
+    h2{
+
+        font-size: 26px;
+    }
+    
+    button {
+        font-size: 1em;
+        padding: 4px 9px;
+    }
+    #filter{
+        font-size: 20px;
+
+    }
+
+
+    button{
+        border-radius: 10px;
+        margin-left: 5px;
+    }
+    #kurslist{
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    }
